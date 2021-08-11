@@ -50,7 +50,7 @@ function nextSequence() {
 }
 
 function Animation(selectedColor) {
-  var randomAudio = new Audio("sounds/" + selectedColor + ".mp3");
+  var randomAudio = new Audio("./" + selectedColor + ".mp3");
   randomAudio.play();
 }
 
