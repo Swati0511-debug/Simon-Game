@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background-color: #222831;
+}
+
+#level-title {
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  margin:  3%;
+  padding: 3% 5%;
+  color: white;
+  border-bottom: 10px;
+  border-top: 5px;
+  border-radius: 100%;
+  border-style: dotted;
+
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+.ScoreCard{
+  font-family: 'Lobster', cursive;
+  font-size: 1.5rem;
+  color: white;
+  display: inline-block;
+  padding: 10% 10% 0;
+
+}
+
+.btn {
+  margin: 10px;
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  border-radius: 30%;
+  border: 7px, solid;
+}
+
+.game-over {
+  background-color:black;
+  opacity: 0.8;
+}
+
+.red {
+  border-color: #810000;
+  background-image: radial-gradient( closest-side,#EF4F4F,#EC4646,#CE1212,#810000);
+}
+
+.green {
+  border-color: green;
+  background-image: radial-gradient(closest-side,#9EDE73,#54E346,green,#064420);
+}
+
+.blue {
+border-color: #0F044C;
+background-image: radial-gradient(closest-side,#64C9CF,#0E49B5,#001E6C,#0F044C);
+
+}
+
+.yellow {
+  border-color: #F9B208;
+  background-image: radial-gradient(closest-side,#FCF876,#FFD523,#F9B208,#F98404);
+}
+
+.pressed {
+  box-shadow: 0 0 10px white;
+  background-image: radial-gradient(#C8C6A7,#92967D,grey);
+}
